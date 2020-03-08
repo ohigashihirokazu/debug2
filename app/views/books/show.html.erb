@@ -30,7 +30,6 @@
 					<%= @book.favorites.count %> 
 					<% end %></td>
 
-					
 
 					<% if @book.user == current_user %>
 					<td><%= link_to "Edit",edit_book_path(@book), class: "btn-sm btn-success " %></td>
