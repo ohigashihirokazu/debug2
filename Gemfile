@@ -78,3 +78,5 @@ gem 'jquery-rails'
 gem 'pry-byebug'
 
 gem 'font-awesome-rails'
+
+

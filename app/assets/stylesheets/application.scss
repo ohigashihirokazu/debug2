@@ -17,6 +17,7 @@
 @import "bootstrap-sprockets";  /*ここを追加*/
 @import "bootstrap";            /*ここを追加*/
 
+
 header {
 	color:white;
 }
@@ -39,4 +40,100 @@ body {
 	
 }
 
+img {
+	border-radius: 300px;
+	
+}
+.btn-flat-simple {
+  position: relative;
+  display: inline-block;
+  font-weight: bold;
+  padding: 0.5em 1em;
+  margin-bottom: 20px;
+  margin-left: 50px;
+  text-decoration: none;
+  color: #00BCD4;
+  transition: .4s;
+  border-radius: 20px;
+}
 
+.btn-flat-simple:hover {
+  background: #67c5ff;
+  color: white;
+}
+
+.btn-flat-dashed-filled {
+  display: inline-block;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  color: #67c5ff;
+  border: dashed 1px #67c5ff;
+  background: #f2fcff;
+  border-radius: 3px;
+  transition: .4s;
+}
+
+.btn-flat-dashed-filled:hover {
+  background: #cbedff;
+  color: #FFF;
+}
+
+.btn-square-little-rich {
+  position: relative;
+  display: inline-block;
+  padding: 0.25em 0.5em;
+  text-decoration: none;
+  color: #FFF;
+  background: #03A9F4;/*色*/
+  border: solid 1px #0f9ada;/*線色*/
+  border-radius: 4px;
+  box-shadow: inset 0 1px 0 rgba(255,255,255,0.2);
+  text-shadow: 0 1px 0 rgba(0,0,0,0.2);
+}
+
+
+.btn-square-pop {
+  position: relative;
+  display: inline-block;
+  padding: 0.25em 0.5em;
+  text-decoration: none;
+  color: #FFF;
+  margin-bottom: 20px;
+  margin-left: 50px;
+  background: #67c5ff;/*背景色*/
+  border-bottom: solid 2px #d27d00;/*少し濃い目の色に*/
+  border-radius: 4px;/*角の丸み*/
+  box-shadow: inset 0 2px 0 rgba(255,255,255,0.2), 0 2px 2px rgba(0, 0, 0, 0.19);
+  font-weight: bold;
+}
+
+.btn-square-pop:active {
+  border-bottom: solid 2px #fd9535;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.30);
+}
+
+.btn-gradient-flat {
+  display: inline-block;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  color: #FFF;
+  background-image: linear-gradient(#67c5ff 0%, #67c5ff 100%);
+  transition: .4s;
+  margin-bottom: 20px;
+  margin-left: 50px;
+  border-radius: 20px;
+  font-weight: bold;
+}
+
+.btn-gradient-flat:hover {
+  background-image: linear-gradient(#67c5ff 0%, #67ceff 70%);
+}
+
+.col-md-4 {
+  margin-left: 50%;
+}
+
+.comment {
+  padding-bottom: 20px;
+  font-size: 20px;
+}
